@@ -14,7 +14,7 @@ function setup(){
 function draw(){
     background("pink");
     document.getElementById('font_size').innerHTML = "Font Size is "+difference;
-    textSize(difference);
+    textSize(noseY,noseX,difference);
     fill('red');
     stroke('blue');
     text('Akshat',100,300);
